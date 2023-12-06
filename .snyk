@@ -1,0 +1,147 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - angular-benchpress > express > debug:
+        patched: '2023-12-06T18:02:30.887Z'
+        id: 'npm:debug:20170905'
+        path: angular-benchpress > express > debug
+    - grunt-contrib-connect > connect > debug:
+        patched: '2023-12-06T18:02:30.887Z'
+        id: 'npm:debug:20170905'
+        path: grunt-contrib-connect > connect > debug
+    - grunt-contrib-connect > serve-index > debug:
+        patched: '2023-12-06T18:02:30.887Z'
+        id: 'npm:debug:20170905'
+        path: grunt-contrib-connect > serve-index > debug
+    - promises-aplus-tests > mocha > debug:
+        patched: '2023-12-06T18:02:30.887Z'
+        id: 'npm:debug:20170905'
+        path: promises-aplus-tests > mocha > debug
+    - grunt-contrib-connect > serve-static > send > debug:
+        patched: '2023-12-06T18:02:30.887Z'
+        id: 'npm:debug:20170905'
+        path: grunt-contrib-connect > serve-static > send > debug
+    - angular-benchpress > express > send > debug:
+        patched: '2023-12-06T18:02:30.887Z'
+        id: 'npm:debug:20170905'
+        path: angular-benchpress > express > send > debug
+    - angular-benchpress > express > finalhandler > debug:
+        patched: '2023-12-06T18:02:30.887Z'
+        id: 'npm:debug:20170905'
+        path: angular-benchpress > express > finalhandler > debug
+    - grunt-contrib-connect > connect > finalhandler > debug:
+        patched: '2023-12-06T18:02:30.887Z'
+        id: 'npm:debug:20170905'
+        path: grunt-contrib-connect > connect > finalhandler > debug
+    - angular-benchpress > express > serve-static > send > debug:
+        patched: '2023-12-06T18:02:30.887Z'
+        id: 'npm:debug:20170905'
+        path: angular-benchpress > express > serve-static > send > debug
+    - grunt-contrib-connect > morgan > debug:
+        patched: '2023-12-06T18:02:30.887Z'
+        id: 'npm:debug:20170905'
+        path: grunt-contrib-connect > morgan > debug
+  'npm:lodash:20180130':
+    - dgeni-packages > dgeni > lodash:
+        patched: '2023-12-06T18:02:30.887Z'
+        id: 'npm:lodash:20180130'
+        path: dgeni-packages > dgeni > lodash
+  'npm:marked:20170907':
+    - dgeni-packages > marked:
+        patched: '2023-12-06T18:02:30.887Z'
+        id: 'npm:marked:20170907'
+        path: dgeni-packages > marked
+  'npm:mime:20170907':
+    - angular-benchpress > di > traceur > q-io > mime:
+        patched: '2023-12-06T18:02:30.887Z'
+        id: 'npm:mime:20170907'
+        path: angular-benchpress > di > traceur > q-io > mime
+    - q-io > mime:
+        patched: '2023-12-06T18:02:30.887Z'
+        id: 'npm:mime:20170907'
+        path: q-io > mime
+    - grunt-contrib-connect > serve-static > send > mime:
+        patched: '2023-12-06T18:02:30.887Z'
+        id: 'npm:mime:20170907'
+        path: grunt-contrib-connect > serve-static > send > mime
+    - angular-benchpress > express > send > mime:
+        patched: '2023-12-06T18:02:30.887Z'
+        id: 'npm:mime:20170907'
+        path: angular-benchpress > express > send > mime
+    - angular-benchpress > express > serve-static > send > mime:
+        patched: '2023-12-06T18:02:30.887Z'
+        id: 'npm:mime:20170907'
+        path: angular-benchpress > express > serve-static > send > mime
+  'npm:minimatch:20160620':
+    - angular-benchpress > browserify > glob > minimatch:
+        patched: '2023-12-06T18:02:30.887Z'
+        id: 'npm:minimatch:20160620'
+        path: angular-benchpress > browserify > glob > minimatch
+    - promises-aplus-tests > mocha > glob > minimatch:
+        patched: '2023-12-06T18:02:30.887Z'
+        id: 'npm:minimatch:20160620'
+        path: promises-aplus-tests > mocha > glob > minimatch
+  'npm:ms:20170412':
+    - angular-benchpress > express > debug > ms:
+        patched: '2023-12-06T18:02:30.887Z'
+        id: 'npm:ms:20170412'
+        path: angular-benchpress > express > debug > ms
+    - grunt-contrib-connect > connect > debug > ms:
+        patched: '2023-12-06T18:02:30.887Z'
+        id: 'npm:ms:20170412'
+        path: grunt-contrib-connect > connect > debug > ms
+    - grunt-contrib-connect > serve-index > debug > ms:
+        patched: '2023-12-06T18:02:30.887Z'
+        id: 'npm:ms:20170412'
+        path: grunt-contrib-connect > serve-index > debug > ms
+    - promises-aplus-tests > mocha > debug > ms:
+        patched: '2023-12-06T18:02:30.887Z'
+        id: 'npm:ms:20170412'
+        path: promises-aplus-tests > mocha > debug > ms
+    - grunt-contrib-connect > serve-static > send > debug > ms:
+        patched: '2023-12-06T18:02:30.887Z'
+        id: 'npm:ms:20170412'
+        path: grunt-contrib-connect > serve-static > send > debug > ms
+    - angular-benchpress > express > send > debug > ms:
+        patched: '2023-12-06T18:02:30.887Z'
+        id: 'npm:ms:20170412'
+        path: angular-benchpress > express > send > debug > ms
+    - angular-benchpress > express > serve-static > send > debug > ms:
+        patched: '2023-12-06T18:02:30.887Z'
+        id: 'npm:ms:20170412'
+        path: angular-benchpress > express > serve-static > send > debug > ms
+    - grunt-contrib-connect > serve-static > send > ms:
+        patched: '2023-12-06T18:02:30.887Z'
+        id: 'npm:ms:20170412'
+        path: grunt-contrib-connect > serve-static > send > ms
+    - angular-benchpress > express > send > ms:
+        patched: '2023-12-06T18:02:30.887Z'
+        id: 'npm:ms:20170412'
+        path: angular-benchpress > express > send > ms
+    - grunt-contrib-connect > morgan > debug > ms:
+        patched: '2023-12-06T18:02:30.887Z'
+        id: 'npm:ms:20170412'
+        path: grunt-contrib-connect > morgan > debug > ms
+    - angular-benchpress > express > serve-static > send > ms:
+        patched: '2023-12-06T18:02:30.887Z'
+        id: 'npm:ms:20170412'
+        path: angular-benchpress > express > serve-static > send > ms
+  'npm:semver:20150403':
+    - angular-benchpress > di > traceur > semver:
+        patched: '2023-12-06T18:02:30.887Z'
+        id: 'npm:semver:20150403'
+        path: angular-benchpress > di > traceur > semver
+  'npm:uglify-js:20151024':
+    - angular-benchpress > browserify > browser-pack > umd > ruglify > uglify-js:
+        patched: '2023-12-06T18:02:30.887Z'
+        id: 'npm:uglify-js:20151024'
+        path: >-
+          angular-benchpress > browserify > browser-pack > umd > ruglify >
+          uglify-js
+    - angular-benchpress > browserify > browser-pack > umd > uglify-js:
+        patched: '2023-12-06T18:02:30.887Z'
+        id: 'npm:uglify-js:20151024'
+        path: angular-benchpress > browserify > browser-pack > umd > uglify-js
